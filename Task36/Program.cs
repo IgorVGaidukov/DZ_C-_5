@@ -3,15 +3,15 @@
 // [3, 7, 23, 12] -> 19
 // [-4, -6, 89, 6] -> 0
 
-int max = 0;
+int size = 0;
 
-while (max <= 0)
+while (size <= 0)
 {
     Console.Write("Введите размер массива: ");
-    max = int.Parse(Console.ReadLine());
+    size = int.Parse(Console.ReadLine());
 }
 
-int[] array = new int[max];
+int[] array = new int[size];
 var rnd = new Random();
 int sum = 0;
 
